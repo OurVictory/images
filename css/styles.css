@@ -1,0 +1,156 @@
+#wrapper{
+	max-width: 960px;
+	margin: auto;
+}
+
+#logo{
+	float: left; /* Обтекание по правому краю */
+    width: 200px; /* Ширина слоя */
+    height: 82px;
+}
+#about{
+	float: left;
+	float: right;
+	width: 760px; /* Ширина слоя */
+    height: 40px;
+    border-bottom: 1px solid #7e7e7e;
+}
+
+#search-line{
+	float: left;
+	float: right;
+	width: 760px; /* Ширина слоя */
+    height: 41px;
+}
+#search-line p{
+	text-align: right;
+	margin: 0px;
+	margin-top: 10px; 
+}
+#heading {
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+#title{
+  width: 80px;
+  text-align: left;
+	color: #fd0000;
+	text-decoration: underline;
+}
+
+#news{
+	
+	color: #000000;
+}
+
+#map{
+	width: 411px;
+  padding: 10px;
+}
+#counters{
+  width: 380px;
+  color: #000000;
+	float: right;
+}
+#topNews{
+  width: 509px;
+}
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Oswald', sans-serif;
+	background: url(../images/bg.png);
+	margin: 0;
+	padding: 0 10px;
+}
+
+body{
+	color: #ffffff;
+	font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+	border-top: 5px solid #f40000;
+	margin: 0;
+}
+
+header{
+	padding: 20px 0;
+}
+
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row div {
+    float: left;
+}
+
+.topMenu li {
+	display: inline-block;
+	width: 190px;
+	text-align: center;
+	font: 24px 'Oswald', sans-serif;
+	padding: 0px 0px;
+	margin: 0px;
+}
+
+.topMenu a {
+	color: #696f70;
+}
+
+.bottomMenu li {
+	display: inline-block;
+	width: 77px;
+	text-align: center;
+	padding: 10px 30px;
+	margin: 0px;
+}
+.bottomMenu li:nth-child(odd) {
+	background: #028ccb;
+	color: #fff;
+}
+
+.bottomMenu li:nth-child(even) {
+	background: #299cd5;
+	color: #fff;
+}
+
+.bottomMenu li.active {
+	background: #696f70;
+	color: #fff;
+}
+
+.bottomMenu a {
+	color: #fff;
+}
+
+input[type="text"]{
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+p{
+	margin: 20px 0;
+}
